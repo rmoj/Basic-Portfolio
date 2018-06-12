@@ -1,8 +1,7 @@
 body {
   align-content: center;
   /* background-color: lightblue; */
-  background-image: url('https://rmoj.github.io/Basic-Portfolio/assets/images/dark_circles.png')
-    lightblue;
+  background: url('../images/dark_circles.png') lightblue;
   background-repeat: repeat;
   background-size: cover;
   padding: 0;
@@ -47,7 +46,7 @@ main {
 
 h1 {
   font-size: 24px;
-  padding: 24px 0px 24px 0px;
+  padding: 24px 0px 0px 24px;
 }
 
 hr {
@@ -56,13 +55,18 @@ hr {
 
 #info {
   float: left;
+  background-color: whitesmoke;
 }
 
 .profilepic {
   float: left;
-  padding: 0px 24px 24px 0px;
+  padding: 0px 24px 24px 24px;
   width: 200px;
   height: 200px;
+}
+
+.content {
+  padding: 0px 24px 24px 0px;
 }
 
 footer {
@@ -72,4 +76,5 @@ footer {
   padding: 24px;
   align-items: center;
   text-align: center;
+  color: white;
 }
