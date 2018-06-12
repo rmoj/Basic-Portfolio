@@ -1,0 +1,74 @@
+body {
+  align-content: center;
+  /* background-color: lightblue; */
+  background-image: url(assets/images/dark_circles.png) lightblue;
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0;
+}
+
+nav {
+  padding: 24px;
+  text-decoration-line: none;
+  font-size: 16px;
+}
+
+#brand {
+  background-color: grey;
+  padding: 24px;
+}
+
+.name {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration-line: none;
+}
+
+main {
+  padding: 24px 0px;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 24px 0px 24px 0px;
+}
+
+hr {
+  margin: 24px 0px 24px 0px;
+}
+
+#info {
+  float: left;
+}
+
+.profilepic {
+  float: left;
+  padding: 0px 24px 24px 0px;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  padding: 24px;
+  align-items: center;
+  text-align: center;
+}
