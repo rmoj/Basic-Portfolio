@@ -1,7 +1,8 @@
 body {
   align-content: center;
   /* background-color: lightblue; */
-  background-image: url(assets/images/dark_circles.png) lightblue;
+  background-image: url('https://rmoj.github.io/Basic-Portfolio/assets/images/dark_circles.png')
+    lightblue;
   background-repeat: repeat;
   background-size: cover;
   padding: 0;
