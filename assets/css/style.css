@@ -1,25 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* align-content: center; */
+  align-items: center;
   background: url('../images/white_carbon.png');
-  background-repeat: repeat;
-  background-size: cover;
   padding: 0;
   margin: 0 auto;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
 }
-
-/* #container {
-  margin: 0 auto;
-  width: 960px;
-} */
 
 header {
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: #ffffff;
   width: 100%;
+  border-bottom-color: #cccccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 #headtainer {
@@ -31,42 +33,49 @@ header {
 }
 
 nav {
-  padding: 24px;
-  text-decoration-line: none;
-  font-size: 16px;
+  padding: 24px 0px 24px 0px;
 }
 
-#brand {
-  background-color: grey;
-  padding: 24px;
+a {
+  text-decoration: none;
+  color: #777777;
+  padding-left: 20px;
+}
+
+a:hover {
+  font-size: x-large;
+  color: #4aaaa5;
+}
+
+.heading {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .name {
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  text-decoration-line: none;
+  background-color: #4aaaa5;
+  padding: 24px;
+  color: #ffffff;
 }
 
 main {
-  margin: 0 auto;
+  background-color: #ffffff;
+  margin: 24px 0px 24px 0px;
   width: 960px;
   padding: 24px 0px;
+  border-color: #dddddd;
+  border-style: solid;
+  border-width: 2px;
 }
 
 h1 {
-  font-size: 24px;
   padding: 24px 0px 0px 24px;
+  color: #4aaaa5;
 }
 
 hr {
   margin: 24px 24px 24px 24px;
-}
-
-#info {
-  float: left;
-  background-color: whitesmoke;
 }
 
 .profilepic {
@@ -78,6 +87,7 @@ hr {
 
 .content {
   padding: 0px 24px 24px 24px;
+  line-height: 2;
 }
 
 footer {
@@ -87,5 +97,8 @@ footer {
   align-items: center;
   text-align: center;
   color: white;
-  background-color: darkgray;
+  background-color: #666666;
+  border-top-color: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 10px;
 }
