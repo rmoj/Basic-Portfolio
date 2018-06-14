@@ -1,23 +1,32 @@
 body {
-  align-content: center;
-  /* background-color: lightblue; */
-  background: url('../images/dark_circles.png') lightblue;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-content: center; */
+  background: url('../images/white_carbon.png');
   background-repeat: repeat;
   background-size: cover;
   padding: 0;
   margin: 0 auto;
 }
 
-#container {
+/* #container {
   margin: 0 auto;
-  width: 1024px;
+  width: 960px;
+} */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
 }
 
-#top {
+#headtainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
+  width: 960px;
   margin: 0;
 }
 
@@ -41,6 +50,8 @@ nav {
 }
 
 main {
+  margin: 0 auto;
+  width: 960px;
   padding: 24px 0px;
 }
 
@@ -50,7 +61,7 @@ h1 {
 }
 
 hr {
-  margin: 24px 0px 24px 0px;
+  margin: 24px 24px 24px 24px;
 }
 
 #info {
@@ -66,15 +77,15 @@ hr {
 }
 
 .content {
-  padding: 0px 24px 24px 0px;
+  padding: 0px 24px 24px 24px;
 }
 
 footer {
-  clear: both;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 24px;
   align-items: center;
   text-align: center;
   color: white;
+  background-color: darkgray;
 }
